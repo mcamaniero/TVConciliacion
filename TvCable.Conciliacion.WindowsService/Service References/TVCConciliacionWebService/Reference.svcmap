@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9e3fbe1c-e617-4000-8831-1485a7a0b402" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://192.168.21.191:8072/TvCableConciliacionServices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="TvCableConciliacionServices.wsdl" MetadataType="Wsdl" ID="91744d66-dae8-4f68-8cdf-2b3d376d2528" SourceId="1" SourceUrl="http://192.168.21.191:8072/TvCableConciliacionServices.svc?wsdl" />
+    <MetadataFile FileName="TvCableConciliacionServices.xsd" MetadataType="Schema" ID="19b36fcc-03a0-42b5-bf61-c33a76ab7442" SourceId="1" SourceUrl="http://192.168.21.191:8072/TvCableConciliacionServices.svc?xsd=xsd1" />
+    <MetadataFile FileName="TvCableConciliacionServices1.xsd" MetadataType="Schema" ID="722e0252-95e2-4b50-b58b-ee709ec2702d" SourceId="1" SourceUrl="http://192.168.21.191:8072/TvCableConciliacionServices.svc?xsd=xsd0" />
+    <MetadataFile FileName="TvCableConciliacionServices.disco" MetadataType="Disco" ID="f7643958-7b2a-473c-84f4-3cb8c323be55" SourceId="1" SourceUrl="http://192.168.21.191:8072/TvCableConciliacionServices.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

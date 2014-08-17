@@ -1,0 +1,95 @@
+.CajaDialogo
+    {
+        
+       background-image:url("/img/nav-repeat3.jpg");
+        
+        border-width: 4px;
+        border-style: outset;
+        
+        padding: 0px;
+        width: 350px;
+        color: #ffffff;
+    }
+    .CajaDialogo div
+    {
+        margin: 5px 5px 0px 5px;
+        text-align: inherit;
+    }
+    .auto-style1
+     {
+           height: 16px;
+     }
+
+ .gridview
+{
+    margin:5px;
+    border:none;
+    background-color:#C1CBDF;
+   
+   
+    
+}
+
+.gridview tr {
+    text-align:left;
+    border-
+    border-bottom: solid;
+    border-color:blue;
+    border-width:10px;
+    font-size: x-small;   
+}
+    
+.gridview th{
+    border:none;
+  
+    background-image:url("/img/header_inner.png");
+    padding: 5px;
+}
+
+.gridview td{
+    border:none;
+    padding: 15px;
+    margin: 5px;
+}
+
+
+.button {
+ border:solid 1px #c0c0c0;
+ background-color:#eeeeee;
+ font-family:verdana;
+ font-size:11px;
+}
+
+.modalBg {
+background-color:#cccccc;
+filter:alpha(opacity=80);
+opacity:0.8;
+}
+
+.modalPanel {
+background-color:#ffffff;
+border-width:3px;
+border-style:solid;
+border-color:Gray;
+padding:3px;
+width:320px;
+}
+       .auto-style5
+       {
+           width: 102px;
+       }
+       .auto-style6
+       {
+           width: 146px;
+       }
+.lblTitle
+{
+color:cadetblue;
+font-family:Calibri;
+font-size:24px;
+text-transform: uppercase;
+}
+       .auto-style7
+       {
+           width: 134px;
+       }

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="RegistrarArchivoConciliacionMdp">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nombreArchivo" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fechaTransacciones" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="codigoMdp" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="numTransacciones" type="xs:int" />
+        <xs:element minOccurs="0" name="montoTotal" type="xs:decimal" />
+        <xs:element minOccurs="0" name="mailNotificacion" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="observaciones" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RegistrarArchivoConciliacionMdpResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RegistrarArchivoConciliacionMdpResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

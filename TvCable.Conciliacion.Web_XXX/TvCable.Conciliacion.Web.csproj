@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5520A6BB-1CB9-4A29-BA1D-A5A432A28D0D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TvCable.Conciliacion.Web</RootNamespace>
+    <AssemblyName>TvCable.Conciliacion.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.7.1213, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Libs\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="Essential.Diagnostics">
+      <HintPath>..\..\Libs\Essential.Diagnostics.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="img\0.png" />
+    <Content Include="img\accordian_bg.png" />
+    <Content Include="img\ajax-loader.gif" />
+    <Content Include="img\application_double.png" />
+    <Content Include="img\arrow-asc.png" />
+    <Content Include="img\arrow-both.png" />
+    <Content Include="img\arrow-desc.png" />
+    <Content Include="img\arrow.png" />
+    <Content Include="img\bar.gif" />
+    <Content Include="img\bg-dark.png" />
+    <Content Include="img\bg-input-focus.png" />
+    <Content Include="img\bg-lite.png" />
+    <Content Include="img\bg.png" />
+    <Content Include="img\block-actions-bg.png" />
+    <Content Include="img\block-header-bg.png" />
+    <Content Include="img\border_bg.png" />
+    <Content Include="img\btn-icons.png" />
+    <Content Include="img\button-left.png" />
+    <Content Include="img\button-right.png" />
+    <Content Include="img\button.png" />
+    <Content Include="img\button_gradient_effect.png" />
+    <Content Include="img\button_highlight.png" />
+    <Content Include="img\button_highlight_selected.png" />
+    <Content Include="img\button_home.png" />
+    <Content Include="img\calendar.gif" />
+    <Content Include="img\checkbox.png" />
+    <Content Include="img\check_list.png" />
+    <Content Include="img\chekbox_off.png" />
+    <Content Include="img\chekbox_on.png" />
+    <Content Include="img\cog.png" />
+    <Content Include="img\cross.png" />
+    <Content Include="img\dark-bg.png" />
+    <Content Include="img\down.png" />
+    <Content Include="img\gradient_red.gif" />
+    <Content Include="img\header-repeat.jpg" />
+    <Content Include="img\header_inner.png" />
+    <Content Include="img\header_inner_corners.png" />
+    <Content Include="img\house.png" />
+    <Content Include="img\icon-charts-graphs.png" />
+    <Content Include="img\icon-dashboard.png" />
+    <Content Include="img\icon-direction.png" />
+    <Content Include="img\icon-form-style.png" />
+    <Content Include="img\icon-gallery.png" />
+    <Content Include="img\icon-grid-tables.png" />
+    <Content Include="img\icon-notifications.png" />
+    <Content Include="img\img-profile.jpg" />
+    <Content Include="img\img_box_background_pattern.png" />
+    <Content Include="img\input-left.png" />
+    <Content Include="img\input-right.png" />
+    <Content Include="img\input.png" />
+    <Content Include="img\login_corners.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logout_bg.gif" />
+    <Content Include="img\menu_arrow.png" />
+    <Content Include="img\menu_border.png" />
+    <Content Include="img\menu_l_selected.png" />
+    <Content Include="img\menu_r_selected.png" />
+    <Content Include="img\menu_selected.png" />
+    <Content Include="img\minus.png" />
+    <Content Include="img\nav-repeat2.jpg" />
+    <Content Include="img\nav-repeat3.jpg" />
+    <Content Include="img\nav_bg.png" />
+    <Content Include="img\nav_divider.png" />
+    <Content Include="img\page_white_copy.png" />
+    <Content Include="img\photo_60x60.jpg" />
+    <Content Include="img\pluse.png" />
+    <Content Include="img\quick_l.png" />
+    <Content Include="img\quick_l_selected.png" />
+    <Content Include="img\quick_r.png" />
+    <Content Include="img\right.gif" />
+    <Content Include="img\select-left.png" />
+    <Content Include="img\select-right.png" />
+    <Content Include="img\shine-effect.png" />
+    <Content Include="img\sidemenu-repeat-hover.jpg" />
+    <Content Include="img\sidemenu-repeat.jpg" />
+    <Content Include="img\star_list.png" />
+    <Content Include="img\switch_minus.gif" />
+    <Content Include="img\switch_plus.gif" />
+    <Content Include="img\textarea-bl.png" />
+    <Content Include="img\textarea-br.png" />
+    <Content Include="img\textarea-l-off.png" />
+    <Content Include="img\textarea-l-over.png" />
+    <Content Include="img\textarea-r-off.png" />
+    <Content Include="img\textarea-r-over.png" />
+    <Content Include="img\textarea-tl.png" />
+    <Content Include="img\textarea-tr.png" />
+    <Content Include="img\tvcable.png" />
+    <Content Include="js\Utilis.js" />
+    <Content Include="Login.aspx" />
+    <Content Include="MainConciliacionweb.aspx" />
+    <Content Include="Styles\grid.css" />
+    <Content Include="Styles\layout.css" />
+    <Content Include="Styles\layoutboxdiag.css" />
+    <Content Include="Styles\login\style.css" />
+    <Content Include="Styles\nav.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\reset.css" />
+    <Content Include="Styles\text.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebFormTemporal.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.Master.designer.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MainConciliacionweb.aspx.cs">
+      <DependentUpon>MainConciliacionweb.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="MainConciliacionweb.aspx.designer.cs">
+      <DependentUpon>MainConciliacionweb.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormTemporal.aspx.cs">
+      <DependentUpon>WebFormTemporal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormTemporal.aspx.designer.cs">
+      <DependentUpon>WebFormTemporal.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Login.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TvCable.Conciliacion.BusinessLayer\TvCable.Conciliacion.BusinessLayer.csproj">
+      <Project>{76a3b25a-0e84-4279-a6ec-e48199c6694a}</Project>
+      <Name>TvCable.Conciliacion.BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TvCable.Conciliacion.DTO\TvCable.Conciliacion.DTO.csproj">
+      <Project>{0c810c87-284c-49e5-af4a-952ed97a88b1}</Project>
+      <Name>TvCable.Conciliacion.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TvCable.Conciliacion.Libs\TvCable.Conciliacion.Libs.csproj">
+      <Project>{02b581cf-471c-4cbd-9ad4-26ee724f4b7f}</Project>
+      <Name>TvCable.Conciliacion.Libs</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\temp.pubxml" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2959</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

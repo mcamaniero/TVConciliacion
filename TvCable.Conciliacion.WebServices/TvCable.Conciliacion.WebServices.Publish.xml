@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="C:\Users\Usuario\Desktop\Instaladores TvCable\Servicio web" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Perfil1" publishMethod="FileSystem" replaceMatchingFiles="True" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="03/28/2014 12:27:45" />
+    <file relUrl="bin/TvCable.Conciliacion.DTO.dll" publishTime="03/28/2014 12:22:55" />
+    <file relUrl="bin/TvCable.Conciliacion.Libs.pdb" publishTime="03/28/2014 12:22:55" />
+    <file relUrl="TvCableConciliacionServices.svc" publishTime="03/20/2014 09:28:22" />
+    <file relUrl="bin/Essential.Diagnostics.xml" publishTime="01/13/2014 17:31:06" />
+    <file relUrl="bin/TvCable.Conciliacion.BusinessLayer.pdb" publishTime="03/28/2014 12:22:56" />
+    <file relUrl="bin/TvCable.Conciliacion.Libs.dll" publishTime="03/28/2014 12:22:55" />
+    <file relUrl="bin/TvCable.Conciliacion.Data.dll" publishTime="03/28/2014 12:22:55" />
+    <file relUrl="bin/TvCable.Conciliacion.WebServices.dll" publishTime="03/28/2014 12:27:45" />
+    <file relUrl="bin/TvCable.Conciliacion.DTO.pdb" publishTime="03/28/2014 12:22:55" />
+    <file relUrl="bin/TvCable.Conciliacion.WebServices.pdb" publishTime="03/28/2014 12:27:45" />
+    <file relUrl="bin/TvCable.Conciliacion.BusinessLayer.dll" publishTime="03/28/2014 12:22:56" />
+    <file relUrl="bin/Essential.Diagnostics.dll" publishTime="01/13/2014 17:31:06" />
+    <file relUrl="bin/TvCable.Conciliacion.Data.pdb" publishTime="03/28/2014 12:22:55" />
+  </publishProfile>
+</publishData>

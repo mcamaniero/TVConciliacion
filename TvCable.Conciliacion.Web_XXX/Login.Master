@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Login.master.cs" Inherits="TvCable.Conciliacion.Web.Login" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+
+<head id="Head1" runat="server">
+    <title>Login</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+            <style type="text/css"> .centrar { position: absolute; /*nos posicionamos en el centro del navegador*/ top:50%; left:50%; /*determinamos una anchura*/ width:400px; /*indicamos que el margen izquierdo, es la mitad de la anchura*/ margin-left:-200px; /*determinamos una altura*/ height:300px; /*indicamos que el margen superior, es la mitad de la altura*/ margin-top:-150px; border:1px solid #808080; padding:5px; } </style>
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        
+		
+    <style>
+        div {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 300px;
+                height: 200px;
+                margin-top: -100px;
+                margin-left: -150px;
+ 
+                
+               
+        }
+        </style>
+
+        
+</head>
+
+<body background="img/nav-repeat3.jpg">
+    
+    <form id="form1" runat="server"   >
+   <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   </div>
+    </form>
+        
+</body>
+</html>
